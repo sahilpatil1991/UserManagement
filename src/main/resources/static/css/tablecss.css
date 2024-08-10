@@ -1,0 +1,79 @@
+
+.red-bar {
+	background-color: #DDDDDD;
+	padding-top: 2rem;
+}
+
+table {
+	margin-top: 2rem;
+}
+
+.del-btn, .upd-btn{
+	width: 1.75rem;
+	padding-top: 0.3rem;
+}
+ .line-icon{
+	 width: 2.5rem;
+	 margin-left: -0.8rem;
+ }
+
+.svg-container {
+	display: inline-flex;
+}
+.line-icon-container{
+	width: 1rem;
+}
+.del-btn-container, .upd-btn-container{
+	width: 2.5rem;
+	height: 2.5rem;
+}
+
+.del-btn-container:hover, .upd-btn-container:hover{
+	background: #FFFFFF;
+	border-radius: 50%;
+}
+
+tbody>tr>th{
+	    font-weight: 500;
+	    font-style: italic;
+}
+
+tbody>tr>:nth-child(1), thead>tr>:nth-child(1){
+ width:5rem;
+ text-align:center;
+}
+tbody>tr>:nth-child(2), thead>tr>:nth-child(2){
+ width:20rem;
+ text-align:center;
+}
+tbody>tr>:nth-child(3), thead>tr>:nth-child(3){
+ width:6rem;
+ text-align:center;
+}
+tbody>tr>:nth-child(4), thead>tr>:nth-child(4){
+ width:6rem;
+ text-align:center;
+}
+tbody>tr>:nth-child(5), thead>tr>:nth-child(5){
+ width:12rem;
+ text-align:center;
+}
+tbody>tr>:nth-child(6), thead>tr>:nth-child(6){
+ width:6rem;
+ text-align:center;
+}
+thead>tr>:nth-child(7){
+	 width:6rem;
+	 text-align:center;
+}
+tbody>tr>:nth-child(7){
+ width:6rem;
+ text-align:center;
+ padding: 0;
+ padding-top: 0.2rem;
+}
+
+.model-btn{
+	display: flex;
+    justify-content: center;
+}

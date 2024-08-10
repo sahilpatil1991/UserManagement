@@ -1,11 +1,12 @@
-CREATE SCHEMA `sample` ;
+CREATE SCHEMA `todo_task` ;
 
-CREATE TABLE `user` (
-  `user_id` int NOT NULL AUTO_INCREMENT,
-  `user_department` varchar(255) DEFAULT NULL,
-  `user_name` varchar(255) DEFAULT NULL,
-  `user_location` varchar(255) DEFAULT NULL,
-  `user_profile` varchar(255) DEFAULT NULL,
-  `user_qualification` varchar(255) DEFAULT NULL,
-  PRIMARY KEY (`user_id`)
+CREATE TABLE `tasks` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `task` varchar(45) DEFAULT NULL,
+  `priority` varchar(45) DEFAULT NULL,
+  `duration` int DEFAULT NULL,
+  `assigne` varchar(45) DEFAULT NULL,
+  `status` varchar(45) DEFAULT NULL,
+  PRIMARY KEY (`id`)
 ) ENGINE=InnoDB;
+
