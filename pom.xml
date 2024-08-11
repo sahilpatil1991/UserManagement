@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.db</groupId>
 	<artifactId>database</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1</version>
 	<name>db</name>
 	<packaging>war</packaging>
 	<description>learning database usage</description>
